@@ -119,7 +119,7 @@ To run the webcam demo
 cd $FRCN_ROOT
 ./tools/webcam.py
 ```
-The webcam demo runs the same VGG16 network as the original demo.  This demo requires the [Dlib](www.dlib.net) as it is used to perform selective search. This demo will display a live 'person' detector in a webcam feed.  You also need to have a webcam to run this demo (either built in or attached).
+The webcam demo runs the same VGG16 network as the original demo.  This demo requires the [Dlib](http://www.dlib.net) as it is used to perform selective search. This demo will display a live 'person' detector in a webcam feed.  You also need to have a webcam to run this demo (either built in or attached).
 
 **MATLAB**
 
