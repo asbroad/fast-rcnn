@@ -114,6 +114,13 @@ The demo performs detection using a VGG16 network trained for detection on PASCA
 
 **Note:** If the demo crashes Caffe because your GPU doesn't have enough memory, try running the demo with a small network, e.g., `./tools/demo.py --net caffenet` or with `--net vgg_cnn_m_1024`. Or run in CPU mode `./tools/demo.py --cpu`. Type `./tools/demo.py -h` for usage.
 
+To run the webcam demo
+```Shell
+cd $FRCN_ROOT
+./tools/webcam.py
+```
+The webcam demo runs the same VGG16 network as the original demo.  This demo requires the [Dlib](www.dlib.net) as it is used to perform selective search. This demo will display a live 'person' detector in a webcam feed.  You also need to have a webcam to run this demo (either built in or attached).
+
 **MATLAB**
 
 There's also a *basic* MATLAB demo, though it's missing some minor bells and whistles compared to the Python version.
